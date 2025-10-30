@@ -1,0 +1,30 @@
+.task-columns {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1200px;
+  gap: 20px;
+}
+
+.task-column {
+  flex: 1;
+  background-color: #f8f1f1; /* Fondo rosa claro */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.task-column h2 {
+  color: #c5a3d8; /* Lila pastel */
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.task-column h2 span {
+  color: #a3bffa; /* Azul pastel */
+  font-size: 0.8em;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}

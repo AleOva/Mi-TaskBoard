@@ -1,0 +1,22 @@
+.app {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f1f1; /* Fondo rosa muy claro */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 2.5em;
+  color: #c5a3d8; /* Lila pastel para el título */
+  margin-bottom: 20px;
+}
+
+.completed-count {
+  font-size: 1.2em;
+  color: #a3bffa; /* Azul pastel para el contador */
+  margin-top: 20px;
+}

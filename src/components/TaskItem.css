@@ -1,0 +1,62 @@
+.task-item {
+  background-color: #e0d4f7; /* Lila suave por defecto */
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  color: #333;
+}
+
+.task-item.university {
+  background-color: #d4e4d2; /* Verde pastel para Universidad */
+}
+
+.task-item.house {
+  background-color: #f4e1d2; /* Naranja pastel para Casa */
+}
+
+.task-item.personal {
+  background-color: #e6e6fa; /* Lavanda claro para Personal */
+}
+
+.task-text {
+  flex: 1;
+  overflow: visible;
+  white-space: normal;
+}
+
+.task-item.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.task-buttons button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+
+.task-buttons .complete-btn {
+  background-color: #a3bffa; /* Azul pastel */
+  color: white;
+}
+
+.task-buttons .complete-btn:hover {
+  background-color: #8ab4f8;
+}
+
+.task-buttons .delete-btn {
+  background-color: #ffb6c1; /* Rosa pastel */
+  color: white;
+}
+
+.task-buttons .delete-btn:hover {
+  background-color: #ff8c9d;
+}
